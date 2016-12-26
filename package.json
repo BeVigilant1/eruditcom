@@ -1,0 +1,25 @@
+{
+  "name": "eruditcom",
+  "version": "1.0.0",
+  "description": "eruditcom.ru",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeVigilant1/eruditcom.git"
+  },
+  "author": "Dan Kovtun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeVigilant1/eruditcom/issues"
+  },
+  "homepage": "https://github.com/BeVigilant1/eruditcom#readme",
+  "dependencies": {
+
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

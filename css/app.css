@@ -1,0 +1,66 @@
+@import url(narrow-jumbotron.css);
+body {
+  background: #f5a01f; }
+
+.navbar-brand {
+  background: url("../img/logo.jpg");
+  background-size: 100px 100px;
+  background-position: -15px -15px;
+  width: 65px;
+  height: 60px; }
+
+.nav-link {
+  margin-top: 10px;
+  color: #373a35; }
+  .nav-link:hover {
+    color: #777; }
+
+.active {
+  background-color: #373a35 !important; }
+
+.jumbotron {
+  color: #F1FFF9;
+  background-color: black;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 300px;
+  min-height: 400px;
+  padding-top: 40px;
+  margin-bottom: 2rem;
+  text-align: left; }
+  .jumbotron .text {
+    max-width: 500px; }
+  .jumbotron p:first-child {
+    margin-bottom: 15px;
+    padding-right: 40px; }
+  .jumbotron .btn {
+    text-transform: uppercase; }
+  .jumbotron p:last-child {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding-left: 35px; }
+
+.marketing a {
+  color: #373a35;
+  text-decoration: none; }
+  .marketing a:hover {
+    color: white; }
+
+.services {
+  border-radius: 5px;
+  padding: .5rem;
+  font-size: 14px;
+  margin: 0 0; }
+  .services:hover {
+    background-color: rgba(55, 58, 53, 0.5); }
+  .services h5 {
+    margin-top: .2rem; }
+
+.ico {
+  font-size: 1.5rem; }
+
+.texter {
+  border-radius: 5px; }
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,92 @@
+@import "variables.scss";
+@import "narrow-jumbotron.css";
+
+body {
+		background: $secondary-color;		
+}
+
+
+.navbar-brand {
+		background: url('../img/logo.jpg');
+		background-size: 100px 100px;
+		background-position: -15px -15px;
+		width: 65px;
+		height: 60px;
+}
+.nav-link {
+		margin-top: 10px; 
+		color: rgba(55, 58, 53, 1);
+	&:hover{
+		color: #777;
+		
+		}
+}
+.active {
+	background-color: rgba(55, 58, 53, 1) !important;
+}
+
+.jumbotron {
+		color: #F1FFF9;
+		background-color: black;
+		background-image: url('../img/background.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 300px; 
+		min-height: 400px;
+		padding-top: 40px;
+		margin-bottom: 2rem;
+		text-align: left;
+		.text {
+			max-width: 500px;
+		}
+	p:first-child {
+		margin-bottom: 15px;
+		padding-right: 40px;
+	}
+	.btn {
+		
+		text-transform: uppercase;	
+	
+	}
+	 p:last-child{
+	 		margin-top: 40px;
+	 		margin-bottom: 25px;
+	 		padding-left: 35px;
+	 		
+
+	 	}
+}
+
+.marketing a {
+		color: rgba(55, 58, 53, 1);
+		text-decoration: none;
+		&:hover{
+					color: white;
+
+		}
+	}
+
+.services {
+	
+	border-radius: 5px;
+	padding: .5rem;
+	font-size: 14px;
+	margin: 0 0;
+	&:hover{
+							background-color: rgba(55, 58, 53, .5) ;
+}
+	h5 {
+		margin-top: .2rem; 
+	}
+	
+}
+.ico {
+	font-size: 1.5rem;
+}	
+.texter {
+	
+	border-radius: 5px;
+
+}
+
+

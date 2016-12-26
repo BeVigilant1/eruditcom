@@ -15,7 +15,7 @@ body {
 /* Custom page header */
 .header {
   padding-bottom: 1rem;
-  border-bottom: .05rem solid #e5e5e5;
+  border-bottom: .05rem solid rgba(55, 58, 53, 0.5);
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -28,7 +28,7 @@ body {
 .footer {
   padding-top: 1.5rem;
   color: #777;
-  border-top: .05rem solid #e5e5e5;
+  border-top: .05rem solid rgba(55, 58, 53, 0.5);
 }
 
 /* Customize container */
@@ -44,7 +44,9 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
+  border-bottom: .05rem solid rgba(55, 58, 53, 0.5);
+;
+
 }
 .jumbotron .btn {
   padding: .75rem 1.5rem;
@@ -53,7 +55,7 @@ body {
 
 /* Supporting marketing content */
 .marketing {
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 .marketing p + h4 {
   margin-top: 1.5rem;
